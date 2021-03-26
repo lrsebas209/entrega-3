@@ -23,6 +23,7 @@ public class Bot {
             }
             BufferedReader br = new BufferedReader(new InputStreamReader(
                 (conn.getInputStream())));
+            System.out.println("here");
             String output = br.readLine();
             JSONObject obj = new JSONObject(output);
             conn.disconnect();
@@ -33,6 +34,7 @@ public class Bot {
             e.printStackTrace();
         }
         //gg
+        System.out.println("here");
         return "";
     }
 
