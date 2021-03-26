@@ -9,7 +9,7 @@ public class TestBot {
     @Test
     public void testCuadrado() {
         Bot bot = new Bot();
-        assertEquals(25.0, bot.cuadrado(5.0), 0);
+        assertEquals("Hola, como puedo ayudarte?",Saludo(), 0);
     }
 
     @Test
