@@ -9,24 +9,12 @@ public class TestBot {
     @Test
     public void testHola() {
         Bot bot = new Bot();
-        assertEquals("Hola, como puedo ayudarte?", bot.saludo(), 0);
+        assertEquals("Hola, como puedo ayudarte?", bot.Saludo(), 0);
     }
 
     @Test
     public void testCero() {
         Bot bot = new Bot();
-        assertEquals(0.0, bot.cuadrado(0.0), 0);
-    }
-
-    @Test
-    public void testUno() {
-        Bot bot = new Bot();
-        assertEquals(1.0, bot.cuadrado(1.0), 0);
-    }
-
-    @Test
-    public void testNegativo() {
-        Bot bot = new Bot();
-        assertEquals(16.0, bot.cuadrado(-4.0), 0);
+        assertEquals("Aun no estoy configurado para responder eso, te gustaria contactarte con una persona?", bot.Responder(0.0), 0);
     }
 }
