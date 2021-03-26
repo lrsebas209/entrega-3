@@ -34,6 +34,7 @@ public class Bot {
             e.printStackTrace();
         }
         //gg
+        return "";
     }
 
 
