@@ -7,9 +7,9 @@ import static org.junit.Assert.*;
 public class TestBot {
 
     @Test
-    public void testCuadrado() {
+    public void testHola() {
         Bot bot = new Bot();
-        assertEquals(25.0, bot.cuadrado(5.0), 0);
+        assertEquals("Hola, como puedo ayudarte?", bot.saludo(), 0);
     }
 
     @Test
