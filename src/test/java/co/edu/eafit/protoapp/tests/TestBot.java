@@ -15,6 +15,6 @@ public class TestBot {
     @Test
     public void testCero() {
         Bot bot = new Bot();
-        assertEquals("Aun no estoy configurado para responder eso, te gustaria contactarte con una persona?", bot.Responder(0.0), 0);
+        assertEquals("Aun no estoy configurado para responder eso, te gustaria contactarte con una persona?", bot.Responder(), 0);
     }
 }
