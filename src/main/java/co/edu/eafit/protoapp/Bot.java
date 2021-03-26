@@ -36,7 +36,7 @@ public class Bot {
     }
 
 
-    public Double Responder() {
+    public String Responder() {
         try {
             URL url = new URL("https://w8rs3evrl4.execute-api.us-east-1.amazonaws.com/Prod/answer");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
