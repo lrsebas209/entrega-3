@@ -1,6 +1,6 @@
 <%@ page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ page import="co.edu.eafit.protoapp.Calculadora" %>
-<%! Calculadora calc = new Calculadora();%>
+<%@ page import="co.edu.eafit.protoapp.Bot" %>
+<%! Bot bot = new Bot();%>
 <%
     Double numero = Double.valueOf(request.getParameter("numero"));
     Double cuadrado = calc.cuadrado(numero);
