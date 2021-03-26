@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import org.json.*;
 
 public class Bot {
 
@@ -22,11 +23,9 @@ public class Bot {
             }
             BufferedReader br = new BufferedReader(new InputStreamReader(
                 (conn.getInputStream())));
-            String output;
-            System.out.println("Output from Server .... \n");
-            while ((output = br.readLine()) != null) {
-                return output;
-            }
+            String output = br.readLine();
+            JSONObject obj = new JSONObject(output);
+            return obj.getJSONObject("pageInfo").getString("message");
             conn.disconnect();
         } catch (MalformedURLException e) {
             e.printStackTrace();
