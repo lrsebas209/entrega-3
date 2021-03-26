@@ -25,8 +25,8 @@ public class Bot {
                 (conn.getInputStream())));
             String output = br.readLine();
             JSONObject obj = new JSONObject(output);
-            return obj.getJSONObject("pageInfo").getString("message");
             conn.disconnect();
+            return obj.getJSONObject("pageInfo").getString("message");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
