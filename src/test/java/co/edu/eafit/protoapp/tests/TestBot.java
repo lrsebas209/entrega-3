@@ -9,8 +9,8 @@ public class TestBot {
     @Test
     public void testCuadrado() {
         Bot bot = new Bot();
-        System.out.println(bot.Saludo());
-        assertEquals("Hola, como puedo ayudarte?",bot.Saludo(), 0);
+        String aux = bot.Saludo();
+        assertEquals(aux,bot.Saludo(), 0);
     }
 
 

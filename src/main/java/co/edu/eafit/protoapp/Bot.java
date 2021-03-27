@@ -23,11 +23,11 @@ public class Bot {
             }
             BufferedReader br = new BufferedReader(new InputStreamReader(
                 (conn.getInputStream())));
-            System.out.println("here");
             String output = br.readLine();
             JSONObject obj = new JSONObject(output);
             conn.disconnect();
-            return obj.getString("message");
+            String res = obj.getString("message");
+            return res;
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
