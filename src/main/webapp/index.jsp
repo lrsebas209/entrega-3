@@ -16,7 +16,7 @@
             <h1>Bot</h1>
             <form action="resultado.jsp">
                 <p><%= Hi%></p>
-                <input name="numero" type="number" /><input value="Calcular" type="submit" />
+                <input name="numero" type="number" /><input value="Enviar" type="submit" />
             </form>
         </div>
     </body>
