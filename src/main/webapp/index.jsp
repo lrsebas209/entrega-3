@@ -14,10 +14,7 @@
     <body>
         <div>
             <h1>Bot</h1>
-            <form action="resultado.jsp">
-                <p><%= Hi%></p>
-                <input name="numero" type="number" /><input value="Calcular" type="submit" />
-            </form>
+            <p><%= Hi%></p>
         </div>
     </body>
 </html>

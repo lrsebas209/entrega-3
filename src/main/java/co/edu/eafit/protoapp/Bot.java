@@ -33,12 +33,8 @@ public class Bot {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //gg
         return "";
     }
 
 
-    public Double cuadrado(Double numero) {
-        return numero * numero;
-    }
 }
