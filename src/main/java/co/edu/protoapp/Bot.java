@@ -1,4 +1,4 @@
-package co.edu.eafit.protoapp;
+package co.edu.protoapp;
 
 
 import java.io.BufferedReader;

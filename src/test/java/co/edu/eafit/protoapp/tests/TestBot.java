@@ -1,6 +1,6 @@
 package co.edu.eafit.protoapp.tests;
 
-import co.edu.eafit.protoapp.Bot;
+import co.edu.protoapp.Bot;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
