@@ -1,4 +1,4 @@
-package co.protoapp;
+package co.app;
 
 
 import java.io.BufferedReader;

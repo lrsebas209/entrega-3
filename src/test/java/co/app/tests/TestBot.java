@@ -1,6 +1,6 @@
-package co.protoapp.tests;
+package co.app.tests;
 
-import co.protoapp.Bot;
+import co.app.Bot;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

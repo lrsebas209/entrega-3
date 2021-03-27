@@ -1,5 +1,5 @@
 <%@ page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ page import="co.protoapp.Bot" %>
+<%@ page import="co.app.Bot" %>
 <%! Bot bot = new Bot();%>
 <%
     String hi = bot.Saludo();
