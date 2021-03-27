@@ -10,7 +10,7 @@ public class TestBot {
     public void testCuadrado() {
         Bot bot = new Bot();
         String aux = bot.Saludo();
-        assertEquals(aux,bot.Saludo(), 0);
+        assertEquals(aux,bot.Saludo());
     }
 
 
